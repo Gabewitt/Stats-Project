@@ -10,30 +10,8 @@ Before starting to code on a lovely sunny day, perform:
 
 which will pull the most recently updated version of the code from github.
 
-### Git branches
+This would how you update the notebooks from other people.
 
-
-Github uses a system called **Branches**. The original, and public (sharable) code is located on the **Main Branch** (one can see which branch they are on by looking at the bottom left of their VScode window). 
-
-It is very important to not mess/change code while inside the **Main Branch**. If you want to tweak, or create a new function, you need to create a new branch or go into an already existing one if there is.
-
-`git branch NameOfBranch`
-
-To make it easier for everyone to follow, **NameOfBranch** should follow this format:\
-
-*git branch gwitt/creatingnewbutton*
-*git branch gwitt/searchbar*
-
-Once the branch is created, you need to access the branch.
-
-`git checkout BranchName`
-
-Example:
-
-*git checkout gwitt/creatingnewbutton*
-*git checkout gwitt/searchbar*
-
-Once in the branch you are free to change the code/create new files...
 
 ### Pushing your code
 
